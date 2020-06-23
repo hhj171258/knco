@@ -57,8 +57,8 @@
 .product li:first-child{margin-left: 0;}
 .product li:nth-child(2n){border-top-right-radius: 80px;}
 .product li:nth-child(2n+1){border-bottom-left-radius: 80px;}
-.product li img{-webkit-transition: all .4s ease-in; -moz-transition: all .4s ease-in; -ms-transition: all .4s ease-in; -o-transition: all .4s ease-in; transition: all .4s ease-in;}
-.product li:hover img{transform: scale(1.2);-webkit-transition: all .4s ease-in; -moz-transition: all .4s ease-in; -ms-transition: all .4s ease-in; -o-transition: all .4s ease-in; transition: all .4s ease-in;}
+.product li img{transition: all .4s ease-in;}
+.product li:hover img{transform: scale(1.2); transition: all .4s ease-in;}
 .product a{position: absolute; top: 0; left: 0; display: block; padding: 154px 0; width: 280px; text-align: center;}
 .product a b{display: block; margin-bottom: 22px; font-weight: 500; font-size: 3rem; line-height: 3rem; color: #fff;}
 .product a span{display: block; font-weight: 400; font-size: 1.6rem; line-height: 2rem; color: #fff;}
@@ -73,14 +73,14 @@
 .product_slide .autoplay .slick-slide > span{display: block;width: 220px; margin: 0 auto; border-radius: 20px;background-color: #fff;}
 .product_slide a{display: block;position: absolute;top: 0;left: 0;padding: 76px 0;width:220px;border-radius: 20px;text-align: center;line-height: 2.8rem;background-color: rgba(0,0,0,.7);}
 .product_slide b{color:#fff;font-size: 2.4rem;font-weight: 500;}
-.product_slide a span{color:#38cd34; font-size: 2.4rem; font-weight: 5s00;}
+.product_slide a span{color:#38cd34; font-size: 2.4rem; font-weight: 500;}
 .product_slide_inner .autoplay ~ span{display: block; position: absolute; top: 50%;margin-top: -25px; width: 25px; height: 50px; background-image: url("/knco/images/main/btn_product_slide.png"); cursor: pointer;}
 .btn_product_slide_pre{left: -35px;}
 .btn_product_slide_next{transform: scaleX(-1); right: -35px;}
 
 /* infomation */
-.information{margin-top: 100px; width:100%; height: 202px; background-image: url("/knco/images/main/img_information_small.jpg"); background-size: cover; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;}
-.information.on{height: 334px; background-image: url("/knco/images/main/img_information_big.jpg"); background-size: cover; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;}
+.information{margin-top: 100px; width:100%; height: 202px; background-image: url("/knco/images/main/img_information_small.jpg"); background-size: cover; transition: all .3s ease;}
+.information.on{height: 334px; background-image: url("/knco/images/main/img_information_big.jpg"); background-size: cover; transition: all .3s ease;}
 .information_inner{margin: 0 auto; padding: 65px 0; width: 1180px;}
 .information_inner.on{padding: 50px 0;}
 .information h2{margin-bottom: 14px;font-weight: 500;font-size: 4rem;line-height: 40px;color: #fff;}
